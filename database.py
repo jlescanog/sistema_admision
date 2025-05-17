@@ -1,7 +1,7 @@
 # database.py
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from .models import Base  # Importamos la Base y los modelos
+from models import Base  # Importamos la Base y los modelos
 
 # Cambia la URL de la base de datos si es necesario
 SQLALCHEMY_DATABASE_URL = "postgresql://sistema_admision:password@localhost/sistema_admision"
